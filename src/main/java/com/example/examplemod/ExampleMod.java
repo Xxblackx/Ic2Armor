@@ -35,6 +35,7 @@ public class ExampleMod
 {
 
     //test push to my dev branch
+	// test eclipse commit
     // Define mod id in a common place for everything to reference
     public static final String MODID = "examplemod";
     // Directly reference a slf4j logger
@@ -106,7 +107,7 @@ public class ExampleMod
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
     }
-
+  
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
