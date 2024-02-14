@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 // Demonstrates how to use Forge's config APIs
 @Mod.EventBusSubscriber(modid = ExampleMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config
-{
+{   //
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 
     private static final ForgeConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER
